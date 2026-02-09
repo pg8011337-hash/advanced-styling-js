@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Styling & JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Advanced Styling and JavaScript</h1>
+    <p>Responsive Design • Carousel • API Data</p>
+</header>
+
+<section class="carousel">
+    <h2>Image Carousel</h2>
+    <img id="carouselImage" src="https://picsum.photos/400/250?1" alt="carousel">
+    <div class="buttons">
+        <button onclick="prevImage()">Previous</button>
+        <button onclick="nextImage()">Next</button>
+    </div>
+</section>
+
+<section class="quiz">
+    <h2>Quick Quiz</h2>
+    <p id="question"></p>
+    <div id="options"></div>
+    <p id="result"></p>
+</section>
+
+<section class="api">
+    <h2>Joke from Public API</h2>
+    <button onclick="getJoke()">Get Joke</button>
+    <p id="joke"></p>
+</section>
+
+<footer>
+    <p>© ApexPlanet Software Pvt Ltd</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
